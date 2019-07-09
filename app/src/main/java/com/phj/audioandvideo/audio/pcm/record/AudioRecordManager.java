@@ -1,4 +1,4 @@
-package com.phj.audioandvideo.image.audio.pcm.record;
+package com.phj.audioandvideo.audio.pcm.record;
 
 import android.media.AudioFormat;
 import android.media.AudioRecord;

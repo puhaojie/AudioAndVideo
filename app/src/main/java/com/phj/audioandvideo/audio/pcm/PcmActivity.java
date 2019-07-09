@@ -1,4 +1,4 @@
-package com.phj.audioandvideo.image.audio.pcm;
+package com.phj.audioandvideo.audio.pcm;
 
 import android.os.Environment;
 import android.util.Log;
@@ -6,9 +6,9 @@ import android.view.View;
 import android.widget.Button;
 
 import com.phj.audioandvideo.R;
+import com.phj.audioandvideo.audio.pcm.play.AudioTrackManager;
+import com.phj.audioandvideo.audio.pcm.record.AudioRecordManager;
 import com.phj.audioandvideo.base.BaseActivity;
-import com.phj.audioandvideo.image.audio.pcm.play.AudioTrackManager;
-import com.phj.audioandvideo.image.audio.pcm.record.AudioRecordManager;
 
 import java.io.File;
 

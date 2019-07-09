@@ -1,4 +1,4 @@
-package com.phj.audioandvideo.image.audio.pcm.play;
+package com.phj.audioandvideo.audio.pcm.play;
 
 import android.media.AudioFormat;
 import android.media.AudioManager;
