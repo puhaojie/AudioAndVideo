@@ -22,23 +22,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-
-        </activity>
-
-        <activity android:name=".image.ImageActivity">
-
-        </activity>
-        <activity android:name=".audio.pcm.PcmActivity">
-
-        </activity>
-
-        <activity android:name=".camera.surfce.SurfaceCameraActivity">
-
-        </activity>
-        <activity android:name=".camera.texture.TextureCameraActivity">
-
-        </activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".image.ImageActivity"></activity>
+        <activity android:name=".audio.pcm.PcmActivity"></activity>
+        <activity android:name=".camera.surfce.SurfaceCameraActivity"></activity>
+        <activity android:name=".camera.texture.TextureCameraActivity"></activity>
         <activity android:name=".mp4.muxer.MixtureActivity" />
         <activity
             android:name=".mp4.decode.PlayMp4Activity"
@@ -49,6 +37,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".audio.aac.AacActivity"></activity>
     </application>
 
 </manifest>
